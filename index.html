@@ -6,7 +6,9 @@
   <title>Personal Portfolio Website</title>
   <link rel="stylesheet" href="style.css">
   <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 </head>
+
 <body>
   <nav class="navbar">
     <div class="max-width">
@@ -19,6 +21,9 @@
         <li><a href="#">Teams</a></li>
         <li><a href="#">Contact</a></li>
       </ul>
+      <div class="menu-btn">
+        <i class="fas fa-bars"></i>
+      </div>
     </div>
   </nav>
 
@@ -29,10 +34,25 @@
         <div class="text-1">Hello, my name is</div>
         <div class="text-2">Rob Kondratowicz</div>
         <div class="text-3">And I'm a <span>Developer</span></div>
+        <a href="#">Hire me</a>
       </div>
     </div>
   </section>
-  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus repellendus animi distinctio aperiam facilis? Eius, debitis eligendi magni pariatur deserunt explicabo perferendis ea vitae cum blanditiis asperiores laborum cupiditate quas?</p>
+
+  <!-- about section start  -->
+  <section class="about" id="about">
+    <div class="max-width">
+      <h2 class="title">About Me</h2>
+      <div class="about-content">
+          <div class="column left">
+            <img src="images/xmas.jpg" alt="">
+          </div>
+      </div>
+    </div>
+  </section>
   
+  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus repellendus animi distinctio aperiam facilis? Eius, debitis eligendi magni pariatur deserunt explicabo perferendis ea vitae cum blanditiis asperiores laborum cupiditate quas?</p>
+
+  <script src="script.js"></script>
 </body>
 </html>
