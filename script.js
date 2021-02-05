@@ -18,8 +18,10 @@ $(document).ready(function(){
   $('.carousel').owlCarousel({
     margin: 20,
     loop: true,
-    autoplayTimeOut: 2000,
+    autoplay: true,
+    autoplayTimeOut: 500,
     autoplayHoverPause: true,
+    autoplaySpeed: 1000,
     responsive: {
       0: {
         items: 1,
