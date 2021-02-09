@@ -694,6 +694,8 @@ footer span a:hover {
 @media (max-width: 400px) {
   .home {
     max-width: 100%;
+    background: url("images/sm_blood_mountain.jpeg") no-repeat center;
+    max-height: 100vh;
   }
   .max-width {
     padding: 10px;
