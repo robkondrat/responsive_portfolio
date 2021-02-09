@@ -695,7 +695,7 @@ footer span a:hover {
   .home {
     max-width: 100%;
     background: url("images/sm_blood_mountain.jpeg") no-repeat center;
-    background-size: cover;
+    /* background-size: cover; */
     background-attachment: fixed;
     max-height: 100vh;
   }
