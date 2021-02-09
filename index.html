@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Rob Kondratowicz - Software Engineer</title>
+  <link rel="shortcut icon" href="/code_fav.png">
   <link rel="stylesheet" href="style.css">
   <script src="https://kit.fontawesome.com/a076d05399.js"></script>
   <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
@@ -59,7 +60,7 @@
             <p>
               I made some career changing decisions at the end of 2019 to get more out of my professional life. My past experience gave me the ability to truly understand the needs of a client or employer - so I have been building my software engineering skills to personally meet those needs and contribute impactful deliverables!
             </p>
-            <a href="/Rob_Kondratowicz - Resume.pdf" download >Download Resume</a>
+            <a href="/Rob_Kondratowicz_Resume.pdf" download >Download Resume</a>
           </div>
       </div>
     </div>
@@ -74,7 +75,9 @@
       <div class="carousel owl-carousel">
         <div class="card">
           <div class="box">
-            <img src="images/project_images/beerez-logo.png" alt="BeerEZ">
+            <a href="https://beerez.netlify.app/" target="_blank">
+              <img src="images/project_images/beerez-logo.png" alt="BeerEZ">
+            </a>
             <div class="text">BeerEZ</div>
             <p>Discover new breweries, browse their beer selections, place your order.</p>
             <div class="text">
@@ -92,7 +95,9 @@
         </div>
         <div class="card">
           <div class="box">
-            <img src="images/project_images/tb-restaurant.png" alt="Tastebuddies">
+            <a href="https://tastebuddies.netlify.app/" target="_blank">
+              <img src="images/project_images/tb-restaurant.png" alt="Tastebuddies">
+            </a>
             <div class="text">Tastebuddies</div>
             <p>
               Swipe through images of food for local restaurant recommendations.
@@ -112,7 +117,9 @@
         </div>
         <div class="card">
           <div class="box">
-            <img class="magnitude-img" src="images/project_images/magnitude-logo.png" alt="Magnitude" >
+            <a href="https://magnitude-app.netlify.app/" target="_blank">
+              <img class="magnitude-img" src="images/project_images/magnitude-logo.png" alt="Magnitude" >
+            </a>
             <div class="text">Magnitude</div>
             <p>Visualized COVID data at state and national levels.</p>
             <div class="text">
@@ -127,7 +134,9 @@
         </div>
         <div class="card">
           <div class="box">
-            <img src="images/project_images/bidcast-logo.png" alt="Bidcast">
+            <a href="https://github.com/robkondrat/vue_bidcast" title="Bidcast Frontend Repo" target="_blank">
+              <img src="images/project_images/bidcast-logo.png" alt="Bidcast">
+            </a>
             <div class="text">Bidcast</div>
             <p>Advertisers bid for available podcast ad-space.</p>
             <div class="text">
@@ -145,7 +154,9 @@
         </div>
         <div class="card">
           <div class="box">
-            <img src="images/project_images/Full Measure 1.png" alt="Full Measure">
+            <a href="https://github.com/robkondrat/FULL_MEASURE_backend" title="Full Measure Frontend Repo" target="_blank">
+              <img src="images/project_images/Full Measure 1.png" alt="Full Measure">
+            </a>
             <div class="text">Full Measure</div>
             <p>View maps of sidewalk dog poop in your area reported by other users.</p>
             <div class="text"> 
@@ -160,7 +171,9 @@
         </div>
         <div class="card">
           <div class="box">
-            <img src="images/project_images/The Wall 1.png" alt="The Wall">
+            <a href="https://github.com/robkondrat/the_wall" target="_blank">
+              <img src="images/project_images/The Wall 1.png" alt="The Wall">
+            </a>
             <div class="text">The Wall</div>
             <p>Chrome Extension that censors page content based on user preferences.</p>
             <div class="text">
@@ -185,9 +198,9 @@
             Web development has been my interest since taking some courses at DePaul University. When I dedicated myself to becoming a full-time software engineer, I chose Actualize Coding Bootcamp to train in fullstack development. Since graduating, I have spent my time learning more technologies and building applications in various languages/frameworks.
           </p>
           <div class="links">
-            <a href="https://linkedin.com/in/robkondratowicz" target="_blank">LinkedIn</a>
+            <a href="https://www.linkedin.com/in/robkondratowicz" target="_blank">LinkedIn</a>
             <br class="responsive">
-            <a href="https://github.com/robkondrat" target="_blank">Github</a>
+            <a href="https://www.github.com/robkondrat" target="_blank">Github</a>
             <br class="responsive">
             <a href="https://www.instagram.com/rkondrat/" target="_blank">Instagram</a>
           </div>
@@ -326,23 +339,28 @@
         </div>
         <div class="column right">
           <div class="text">Message me</div>
-          <form action="#">
+          <form 
+            action="mailto=r.kondratowicz1@gmail.com"
+            method="POST"
+            enctype="multipart/form-data"
+            name="EmailForm"
+          >
             <div class="fields">
               <div class="field name">
-                <input type="text" placeholder="Name" required>
+                <input type="text" name="Contact-Name" placeholder="Name" required>
               </div>
               <div class="field email">
-                <input type="text" placeholder="Email" required>
+                <input type="text" name="Contact-Email" placeholder="Email" required>
               </div>
             </div>
             <div class="field">
-              <input type="text" placeholder="Subject" required>
+              <input type="text" name="Contact-Subject" placeholder="Subject" required>
             </div>
             <div class="field textarea">
-              <textarea cols="30" rows="10" placeholder="Message..." required></textarea>
+              <textarea cols="30" rows="10" name="Contact-Message" placeholder="Message..." required></textarea>
             </div>
             <div class="button">
-              <button type="submit">Send message</button>
+              <button type="submit" value="Submit">Send message</button>
             </div>
           </form>
         </div>
@@ -352,7 +370,7 @@
 
   <!-- footer section start  -->
   <footer>
-    <span>Created by <a href="#">Rob Kondratowicz</a>
+    <span>Created by <a href="https://www.linkedin.com/in/robkondratowicz">Rob Kondratowicz</a>
        <!-- | <span class="far fa-copyright"></span> 2020 All rights reserved. -->
     </span>
   </footer>

@@ -710,6 +710,12 @@ footer span a:hover {
     margin-top: 5px;
     margin-bottom: 5px;
   }
+  .projects .carousel .card .text i{
+    color: white;
+    font-size: 50px;
+    margin-right: 7px;
+    margin-left: 7px;
+  }
   /* .skills .skills-content .left a {
     margin: 0 1px 0 1px;
   }
