@@ -421,9 +421,9 @@ margin-bottom: 10px;
   border: 5px solid #222;
   transition: all 0.5s ease;
 }
-projects .carousel .card img .magnitude-img {
+/* projects .carousel .card img .magnitude-img {
 
-}
+} */
 .projects .carousel .card:hover img {
   border-color: #fff;
 }
@@ -661,5 +661,29 @@ footer span a:hover {
     width: 100%;
     min-height: 250px;
   }
-
 }
+@media (max-width: 400px) {
+  .max-width {
+    padding: 10px;
+    max-width: 350px;
+  }
+  section {
+    padding: 20px;
+  }
+  .home .home-content .text-2 {
+    font-size: 40px;
+  }
+  .home .home-content .text-3 {
+    font-size: 30px;
+  }
+  .home .home-content a {
+    font-size: 20px;
+    padding: 9px 20px;
+  }
+  .life .life-content .card,
+  .skills .skills-content .column {
+    width: 100%;
+    min-height: 250px;
+  }
+}
+
