@@ -202,7 +202,9 @@ section .title::after {
 .about .title::after{
   content: "who i am";
 }
-
+br.responsive {
+  display: none;
+}
 .about .about-content .left {
   width: 45%;
 }
@@ -326,6 +328,10 @@ margin-bottom: 10px;
   color: crimson;
   background: none;
 }
+/* .skills .skills-content .left .links {
+  display: flex;
+  justify-content: center;
+} */
 .skills .skills-content .right .bars {
   margin-bottom: 15px;
 }
@@ -380,7 +386,7 @@ margin-bottom: 10px;
 
 /* projects section styling  */
 .projects .title::after {
-  content: "what i've done";
+  content: "what i've coded";
 
 }
 .projects .carousel .card {
@@ -670,6 +676,9 @@ footer span a:hover {
   section {
     padding: 20px;
   }
+  section .title {
+    margin-bottom: 40px;
+  }
   .home .home-content .text-2 {
     font-size: 40px;
   }
@@ -684,6 +693,29 @@ footer span a:hover {
   .skills .skills-content .column {
     width: 100%;
     min-height: 250px;
+    margin-bottom: 5px;
   }
+  .about .about-content .right p,
+  .skills .skills-content .left p,
+  .contact .contact-content .left p {
+    text-align: left;
+  }
+  .typing-2 {
+    display: inline-block;
+  }
+  br.responsive {
+    display: inline;
+  }
+  .skills .skills-content .left a {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  /* .skills .skills-content .left a {
+    margin: 0 1px 0 1px;
+  }
+  .skills .skills-content .left .links {
+    display: flex;
+    justify-content: center;
+  } */
 }
 
