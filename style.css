@@ -119,7 +119,8 @@ html {
   font-family: 'Ubuntu', sans-serif;
 }
 .home .max-width {
-  margin: auto 0 auto 40px;
+  /* margin: auto 0 auto 40px; */
+  margin: auto 0 auto 70px;
 
 }
 .home .home-content .text-1 {
@@ -264,7 +265,7 @@ margin-bottom: 10px;
 }
 .life .life-content .card {
   width: calc(33% - 20px);
-  min-height: 420px;
+  /* min-height: 420px; */
   background: #222;
   text-align: center;
   border-radius: 6px;
@@ -272,6 +273,7 @@ margin-bottom: 10px;
   /* cursor: pointer; */
   transition: all 0.3s ease;
 }
+
 /* .life .life-content .card:hover {
   background: crimson;
 } */
@@ -567,6 +569,12 @@ footer span a:hover {
 @media (max-width: 1300px) {
   .home .max-width {
     margin-left: 0px;
+  }
+}
+
+@media (max-width: 1250px) {
+  .life .life-content .card {
+    min-height: 400px;
   }
 }
 
