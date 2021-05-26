@@ -111,6 +111,11 @@ html {
 .home {
   display: flex;
   background: url("images/blood_mountain.jpg") no-repeat center;
+  /* background: url("images/emerald.jpg") no-repeat center; */
+
+
+  
+
   height: 100vh;
   background-size: cover;
   background-attachment: fixed;
@@ -706,6 +711,8 @@ footer span a:hover {
   .home {
     max-width: 100%;
     background: url("images/sm_blood_mountain.jpeg") no-repeat center;
+    /* background: url("images/emerald.jpg") no-repeat center; */
+
     /* background-size: cover; */
     /* background-attachment: fixed; */
     max-height: 100vh;
